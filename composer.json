@@ -1,0 +1,45 @@
+{
+    "name": "cyberpunkcodes/laravel-ajax-json-api",
+    "description": "Laravel AJAX JSON API",
+    "keywords": [
+        "laravel",
+        "ajax",
+        "json",
+        "api"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/CyberPunkCodes/laravel-flashmessages",
+    "support": {
+        "issues": "https://github.com/CyberPunkCodes/laravel-flashmessages/issues",
+        "source": "https://github.com/CyberPunkCodes/laravel-flashmessages"
+    },
+    "authors": [
+        {
+            "name": "CyberPunkCodes"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "require-dev": {
+        "laravel/framework": "^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CyberPunkCodes\\LaravelAjaxJsonApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CyberPunkCodes\\LaravelAjaxJsonApi\\AjaxJsonApiProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
